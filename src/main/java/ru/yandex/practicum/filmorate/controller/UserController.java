@@ -15,7 +15,7 @@ import static ru.yandex.practicum.filmorate.validator.Validator.validatedUser;
 @RequestMapping("/users")
 public class UserController {
     private List<User> users=new ArrayList<>();
-    public static Long staticId=0L;
+    public static Long staticId=1L;
     private static final Logger log = LoggerFactory.getLogger(UserController.class);
 
     @GetMapping

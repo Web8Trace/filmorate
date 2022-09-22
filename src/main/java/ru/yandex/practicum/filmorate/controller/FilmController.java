@@ -15,7 +15,7 @@ import static ru.yandex.practicum.filmorate.validator.Validator.validatedFilm;
 @RequestMapping("/films")
 public class FilmController {
     private List<Film> films = new ArrayList<>();
-    public static Long staticId=0L;
+    public static Long staticId=1L;
     private static final Logger log = LoggerFactory.getLogger(UserController.class);
     @GetMapping
     List<Film>getFilms(){
